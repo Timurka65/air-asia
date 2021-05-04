@@ -1,0 +1,58 @@
+.main-page__header {
+    margin-bottom: 71px;
+}
+
+.header__container {
+    height: 123px;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 41px;
+    left: 164px;
+}
+
+.contacts {
+    position: absolute;
+    top: 29px;
+    right: 0px;
+}
+
+.nav__list-item {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 51px;
+}
+
+.nav__list-link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav__list-link:hover {
+    color: #DA0100;
+}
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-size: 26px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #98A4A8;
+    margin-top: -7px;
+}

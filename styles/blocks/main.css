@@ -1,0 +1,248 @@
+.main-page {
+    background: url(/img/bg-top.jpg) center top no-repeat, url(/img/bg-bottom.jpg) center bottom 140px no-repeat;
+}
+
+.services-page {
+    background: url(/img/serviсes/bg-serviсes.jpg) center top no-repeat;
+}
+
+.main-page__intro {
+    margin-bottom: 246px;
+}
+
+.intro__banner {
+   width: 511px;
+}
+
+.intro__title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.intro__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button:hover {
+    background: #DA0100;
+}
+
+.main-page__tour {
+    margin-bottom: 122px;
+}
+
+.tour__title {
+    position: relative;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 51px;
+}
+
+.title--fire {
+    position: absolute;
+    padding-left: 288px;
+    padding-top: 13px;
+}
+
+.tour__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour__item {
+    min-height: 449px;
+    width: 362px;
+    background: #fff;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+.tour__preview {
+    width: 100%;
+    height: 144px;
+}
+
+.tour__preview-img {
+    min-height: 144px;
+
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.tour__content {
+    padding: 30px 16px 26px 21px;
+    color: #666666;
+}
+
+.tour__subtitle {
+    font-weight: bold;
+    font-size: 24px; 
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.tour__features {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.tour__feature {
+    width: 165px;
+    margin-bottom: 23px;
+}
+
+.tour__features-icon {
+    display: block;
+    position: absolute;
+}
+
+.tour__features-text {
+    font-size: 16px;
+    padding: 2px 0;
+    margin-left: 42px;
+}
+
+.tour__text {
+    margin-bottom: 24px;
+    line-height: 1.5;
+    color: #303030;
+
+}
+
+.button--light {
+    background: #fff;
+    border: 1px solid #F5170E;
+    color: #F5170E;
+    border-radius: 35px;
+    padding: 17px 29px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button--light:hover{
+    background: #F5170E;
+    color: #fff;
+}
+
+.main-page__news {
+    margin-bottom: 145px;
+}
+
+.news__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 51px;
+}
+
+.news__list {
+    margin-bottom: 53px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__item {
+    width: 557px;
+    vertical-align: top;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.news__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news__features {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 30px;
+    min-height: 140px;
+}
+
+.news__date {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.news__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.news__text {
+    font-size: 16px;
+}
+
+.main-page__about {
+    margin-bottom: 53px;
+}
+
+.about {
+    padding-top: 97px;
+    position: relative;
+}
+
+.about__block {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 490px; 
+    height: 505px;
+    background: url(/img/about/about-1.jpg) center center / cover no-repeat;
+    border-radius: 5px;
+}
+
+.about__item {
+    display: block;
+    position: relative;
+    padding-top: 71px;
+    padding-left: 81px;
+    padding-bottom: 65px;
+    width: 785px;
+    background: url(/img/about/about-2.jpg) no-repeat;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.about__title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.about__text {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #060606;
+    width: 502px;
+    margin-bottom: 69px;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,39 @@
+.pagination {
+    text-align: center;
+    mix-blend-mode: 152px;
+    font-size: 16px;
+}
+
+.pagination__display, .pagination__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__display {
+    margin-right: 25px;
+}
+
+.pagination__list-item {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.pagination__list-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.pagination__list-link:hover {
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    background: #FFFFFF;
+    color: #F5170E;
+}
