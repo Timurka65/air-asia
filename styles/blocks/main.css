@@ -73,7 +73,6 @@
 
 .tour__preview-img {
     min-height: 144px;
-
     width:100%;
     height:100%;
     object-fit: cover;
@@ -246,7 +245,46 @@
 
 
 /* sevices */
+.services {
+    background: #fff;
+}
 .services-page {
     background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
 
+.intro {
+    margin-bottom: 47px;
+}
+
+.intro__spase {
+    margin-bottom: 103px;
+}
+
+.services__item {
+    display: flex;
+    margin-bottom: 49px;
+}
+
+.serviсes__preview-img {
+    display: block;
+    height: 333px;
+    border-radius: 6px;
+}
+
+.services__content {
+    width: 652px;
+    margin-left: 56px;
+}
+
+.services__subtite {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.services__text {
+    font-size: 16px;
+    color: #303030;
+    margin-bottom: 34px;
+}

@@ -1,5 +1,5 @@
 .partners {
-background: #F4F5F5;
+background: #e5e9e9;
 }
 
 .partners__title {
@@ -14,7 +14,4 @@ background: #F4F5F5;
     flex-wrap: wrap;
     justify-content: space-between;
     height: 188px;
-}
-
-.partners__list-item {
 }
