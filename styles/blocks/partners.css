@@ -12,6 +12,9 @@ background: #e5e9e9;
 .partners__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    width: 1139px;
     height: 188px;
 }

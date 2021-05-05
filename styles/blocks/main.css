@@ -250,15 +250,15 @@
     background: #fff;
 }
 .services-page {
-    background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
-}
-
-.intro {
-    margin-bottom: 47px;
+    background: #001821 url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
 
 .intro__spase {
     margin-bottom: 103px;
+}
+
+.services-page__services {
+    
 }
 
 .services__item {
