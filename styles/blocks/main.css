@@ -1,9 +1,9 @@
 .main-page {
-    background: url(../../img/bg-top.jpg) center top no-repeat, url(../../img/bg-bottom.jpg) center bottom 140px no-repeat;
+    background: url(../img/bg-top.jpg) center top no-repeat, url(../img/bg-bottom.jpg) center bottom 140px no-repeat;
 }
 
 .services-page {
-    background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
+    background: url(../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
 
 .main-page__intro {
@@ -208,7 +208,7 @@
     top: 0;
     width: 490px; 
     height: 505px;
-    background: url(../../img/about/about-1.jpg) center center / cover no-repeat;
+    background: url(../img/about/about-1.jpg) center center / cover no-repeat;
     border-radius: 5px;
 }
 
@@ -219,7 +219,7 @@
     padding-left: 81px;
     padding-bottom: 65px;
     width: 785px;
-    background: url(../../img/about/about-2.jpg) no-repeat;
+    background: url(../img/about/about-2.jpg) no-repeat;
     border-radius: 5px;
     margin-left: auto;
 }
