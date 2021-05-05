@@ -1,12 +1,12 @@
+/* index.hmtl */
 .pagination {
     text-align: center;
-    mix-blend-mode: 152px;
     font-size: 16px;
 }
 
 .pagination__display, .pagination__list {
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
 }
 
 .pagination__display {
@@ -14,9 +14,8 @@
 }
 
 .pagination__list-item {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
     font-weight: bold;
     font-size: 16px;
 }
@@ -34,6 +33,26 @@
     width: 32px;
     height: 32px;
     font-weight: bold;
-    background: #FFFFFF;
+    background: #FFF;
     color: #F5170E;
+}
+
+
+/* services.html */
+.services-pagination__list-item {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #000;
+}
+
+.services-pagination__list-item:hover {
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    background: #F5170E;
+    color: #FFF;
 }
