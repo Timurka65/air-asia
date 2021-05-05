@@ -1,5 +1,5 @@
 .main-page {
-    background: url(../img/bg-top.jpg) center top no-repeat, url(../img/bg-bottom.jpg) center bottom 140px no-repeat;
+    background: url(/../../img/bg-top.jpg) center top no-repeat, url(../img/bg-bottom.jpg) center bottom 140px no-repeat;
 }
 
 .services-page {
