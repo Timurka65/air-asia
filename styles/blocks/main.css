@@ -1,9 +1,6 @@
+/* index */
 .main-page {
     background: url(../../img/bg-top.jpg) center top no-repeat, url(../../img/bg-bottom.jpg) center bottom 140px no-repeat;
-}
-
-.services-page {
-    background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
 
 .main-page__intro {
@@ -246,3 +243,10 @@
 .about__text p:last-child {
     margin-bottom: 0;
 }
+
+
+/* sevices */
+.services-page {
+    background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
+}
+

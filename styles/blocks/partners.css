@@ -1,0 +1,20 @@
+.partners {
+background: #F4F5F5;
+}
+
+.partners__title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #1A1B1E;
+    margin-bottom: 99px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 188px;
+}
+
+.partners__list-item {
+}
