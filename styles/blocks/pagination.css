@@ -39,20 +39,18 @@
 
 
 /* services.html */
-.services-pagination__list-item {
-    display: block;
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    border-radius: 50%;
-    font-weight: bold;
+.services-pagination__display {
     color: #000;
 }
 
-.services-pagination__list-item:hover {
+.services-pagination__list-item {
+    color: #000;
+}
+
+.list-link--red:hover {
     width: 32px;
     height: 32px;
     font-weight: bold;
     background: #F5170E;
-    color: #FFF;
+    color: #fff;
 }

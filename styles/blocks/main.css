@@ -1,4 +1,4 @@
-/* index */
+/* index.html */
 .main-page {
     background: url(../../img/bg-top.jpg) center top no-repeat, url(../../img/bg-bottom.jpg) center bottom 140px no-repeat;
 }
@@ -244,21 +244,25 @@
 }
 
 
-/* sevices */
+/* sevices.html */
 .services {
     padding-top: 98px;
     background: #fff;
 }
 .services-page {
-    background: #001821 url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
+    background: url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
 
-.intro__spase {
-    margin-bottom: 103px;
+.services-page__header {
+    margin-bottom: 41px;
+}
+
+.intro__spase { /*---*/
+    margin-bottom: 102px;
 }
 
 .services-page__services {
-    
+    margin-bottom: 90px;
 }
 
 .services__item {
