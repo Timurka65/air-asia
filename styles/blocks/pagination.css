@@ -1,21 +1,21 @@
-/* index.hmtl */
 .pagination {
-    text-align: center;
-    font-size: 16px;
-}
-
-.pagination__display, .pagination__list {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    font-size: 16px;
 }
 
 .pagination__display {
     margin-right: 25px;
 }
 
-.pagination__list-item {
-    display: inline-flex;
+.pagination__list {
+    display: flex;
     align-items: center;
+}
+
+.pagination__list-item {
+    text-align: center;
     font-weight: bold;
     font-size: 16px;
 }
@@ -33,23 +33,17 @@
     width: 32px;
     height: 32px;
     font-weight: bold;
-    background: #FFF;
+    background: #fff;
     color: #F5170E;
 }
 
 
 /* services.html */
-.services-pagination__display {
-    color: #000;
-}
-
-.services-pagination__list-item {
+.services-pagination {
     color: #000;
 }
 
 .list-link--red:hover {
-    width: 32px;
-    height: 32px;
     font-weight: bold;
     background: #F5170E;
     color: #fff;

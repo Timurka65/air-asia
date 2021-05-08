@@ -1,29 +1,25 @@
-.main-page__header {
-    margin-bottom: 71px;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    margin-bottom: 30px;
 }
 
-.header__container {
-    height: 123px;
-    position: relative;
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+   justify-content: flex-end;
+
 }
 
 .logo {
     display: block;
-    position: absolute;
-    top: 29px;
-    left: 0;
-}
-
-.nav {
-    position: absolute;
-    top: 41px;
-    left: 164px;
-}
-
-.contacts {
-    position: absolute;
-    top: 29px;
-    right: 0px;
+    margin-right: 80px;
 }
 
 .nav__list-item {
