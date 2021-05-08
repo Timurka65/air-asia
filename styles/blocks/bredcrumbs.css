@@ -1,15 +1,17 @@
 .breadcrumbs__list {
     display: flex;
+    align-items: center;
     margin-bottom: 25px;
 }
 
 .breadcrumbs__item {
+    display: flex;
+    align-items: center;
     color: #9A9A9A;
     margin-right: 4px;
 }
 
 .breadcrumbs__item:not(:last-child)::after {
-    
     content: "/";
     margin-left: 4px;
 }
