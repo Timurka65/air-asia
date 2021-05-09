@@ -1,31 +1,37 @@
 .partners {
-background: #e5e9e9;
-height: 537px;
-padding-top: 88px;
+    background: #e5e9e9;
+    height: 537px;
+    padding-top: 88px;
 }
 
 .partners__title {
     font-weight: bold;
     font-size: 48px;
     color: #1A1B1E;
-    margin-bottom: 79px;
+    margin-bottom: 52px;
 }
 
 .partners__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-content: space-between;
-    align-items: center;
-    height: 188px;
+    justify-content: space-between;
 }
 
 .partners__list-item {
-    margin-right: 55px;
+    margin-left: 74px;
+}
+
+.partners__list-item:nth-child(4n + 1) {
+    margin-left: 0;
+
 }
 
 .partners__list-link {
     filter: grayscale(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 128px;
 }
 
 .partners__list-link:hover {

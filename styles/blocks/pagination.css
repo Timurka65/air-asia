@@ -38,12 +38,12 @@
 }
 
 
-/* services.html */
-.services-pagination {
+/* services page */
+.pagination-theme-red{
     color: #000;
 }
 
-.list-link--red:hover {
+.pagination-theme-red .pagination__list-item .pagination__list-link:hover {
     font-weight: bold;
     background: #F5170E;
     color: #fff;

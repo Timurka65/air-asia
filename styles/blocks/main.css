@@ -1,4 +1,4 @@
-/* index.html */
+/* index page */
 .main-page {
     background: url(../../img/bg-top.jpg) center top no-repeat, url(../../img/bg-bottom.jpg) center bottom 140px no-repeat;
 }
@@ -294,18 +294,17 @@
 
 /* main */
 .page-content {
-    background: #F2F2F2;
-    /* padding: 98px 0; */
+    background: #fff;
+    padding-top: 98px;
 }
-.service {
+.serviсe {
     display: flex;  
-    flex-direction: row;
+    margin-bottom: 53px;
 }
 
-.serviсe__img-preview {
-    width: 30%;
-    margin-right: 7%;
-    border-radius: 6px;
+.serviсe__img {
+    width: 40%;
+    margin-right: 5%;
 }
 
 .service__content {
@@ -316,6 +315,7 @@
     font-weight: bold;
     font-size: 36px;
     color: #000000;
+    margin-top: 12px;
     margin-bottom: 30px;
 }
 
@@ -340,4 +340,8 @@
 .service__btn--light:hover {
     background: #F5170E;
     color: #fff;
+}
+
+.pagination-theme-red {
+    margin-bottom: 90px;
 }
