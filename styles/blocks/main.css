@@ -277,7 +277,6 @@
 /* sevices page */
 .top-line {
     display: flex;
-    /* flex-direction: column; */
     min-height: 412px;
     background: #001821 url(../../img/serviсes/bg-serviсes.jpg) center top no-repeat;
 }
@@ -289,55 +288,45 @@
     justify-content: space-between;
 }
 
-
-.services {
-    padding-top: 98px;
-    background: #fff;
-}
-
 .services-page__header {
     margin-bottom: 41px;
 }
 
-.intro__spase { /*---*/
-    margin-bottom: 102px;
+/* main */
+.page-content {
+    background: #F2F2F2;
+    /* padding: 98px 0; */
+}
+.service {
+    display: flex;  
+    flex-direction: row;
 }
 
-.services-page__services {
-    margin-bottom: 90px;
-}
-
-.services__item {
-    display: flex;
-    margin-bottom: 49px;
-}
-
-.serviсes__preview-img {
-    display: block;
-    height: 333px;
+.serviсe__img-preview {
+    width: 30%;
+    margin-right: 7%;
     border-radius: 6px;
 }
 
-.services__content {
-    width: 652px;
-    margin: 10px 0  0 58px;
+.service__content {
+    flex:1;
 }
 
-.services__subtite {
+.service__title {
     font-weight: bold;
     font-size: 36px;
     color: #000000;
     margin-bottom: 30px;
 }
 
-.services__text {
+.service__desc {
     font-size: 16px;
     line-height: 1.7;
     color: #303030;
     margin-bottom: 34px;
 }
 
-.services__btn--light {
+.service__btn--light {
     background: #fff;
     border: 1px solid #F5170E;
     color: #F5170E;
@@ -348,7 +337,7 @@
     display: inline-block;
 }
 
-.services__btn--light:hover {
+.service__btn--light:hover {
     background: #F5170E;
     color: #fff;
 }
