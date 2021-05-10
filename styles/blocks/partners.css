@@ -8,32 +8,33 @@
     font-weight: bold;
     font-size: 48px;
     color: #1A1B1E;
-    margin-bottom: 52px;
+    margin-bottom: 84px;
 }
 
 .partners__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
-.partners__list-item {
+.partners-item {
     margin-left: 74px;
+    margin-bottom: 70px;
 }
 
-.partners__list-item:nth-child(4n + 1) {
+.partners-item:nth-child(4n + 1) {
     margin-left: 0;
-
 }
 
-.partners__list-link {
+.partners-link {
     filter: grayscale(1);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 128px;
+    /* height: 128px; */
 }
 
-.partners__list-link:hover {
+.partners-link:hover {
     filter: grayscale(0);
 }

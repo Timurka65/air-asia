@@ -9,18 +9,18 @@
     margin-right: 25px;
 }
 
-.pagination__list {
+.pagination {
     display: flex;
     align-items: center;
 }
 
-.pagination__list-item {
+.pagination__item {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
 }
 
-.pagination__list-link {
+.pagination__link {
     display: block;
     width: 32px;
     height: 32px;
@@ -29,7 +29,15 @@
     font-weight: bold;
 }
 
-.pagination__list-link:hover {
+.pagination__link:hover {
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    background: #fff;
+    color: #F5170E;
+}
+
+.pagination-link-activ {
     width: 32px;
     height: 32px;
     font-weight: bold;
@@ -41,9 +49,16 @@
 /* services page */
 .pagination-theme-red{
     color: #000;
+    margin-bottom: 84px;
 }
 
-.pagination-theme-red .pagination__list-item .pagination__list-link:hover {
+.pagination-theme-red .pagination__item .pagination__link:hover {
+    font-weight: bold;
+    background: #F5170E;
+    color: #fff;
+}
+
+.pagination-theme-red .pagination__item .pagination__link-activ {
     font-weight: bold;
     background: #F5170E;
     color: #fff;

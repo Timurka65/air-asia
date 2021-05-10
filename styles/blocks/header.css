@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.header__col--align--right {
+.header__col-right {
    justify-content: flex-end;
 
 }
@@ -22,18 +22,18 @@
     margin-right: 80px;
 }
 
-.nav__list-item {
+.nav__item {
     display: inline-flex;
     justify-content: space-between;
     margin-right: 51px;
 }
 
-.nav__list-link {
+.nav__link {
     font-size: 14px;
     text-decoration: none;
 }
 
-.nav__list-link:hover {
+.nav__link:hover {
     color: #DA0100;
 }
 

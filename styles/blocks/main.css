@@ -51,15 +51,15 @@
 
 /* tour */
 .tour__title {
+    display: flex;
+    align-items: center;
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 51px;
 }
 
 .title--fire {
-    position: absolute;
-    padding-left: 288px;
-    padding-top: 13px;
+    padding-left: 12px;
 }
 
 .tour__list {
@@ -69,8 +69,8 @@
 }
 
 .tour__item {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     min-height: 449px;
     width: calc(100% / 3 - 18px);
     background: #fff;
@@ -91,8 +91,8 @@
 }
 
 .tour__content {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     flex: 1;
     padding: 30px 16px 26px 21px;
     color: #666666;
@@ -146,6 +146,11 @@
 }
 
 .tour__btn--light:hover {
+    background: #F5170E;
+    color: #fff;
+}
+
+.tour__btn--light-activ {
     background: #F5170E;
     color: #fff;
 }
@@ -297,9 +302,18 @@
     background: #fff;
     padding-top: 98px;
 }
+
+.services {
+    margin-bottom: 70px;
+}
+
 .serviсe {
     display: flex;  
-    margin-bottom: 53px;
+    margin-bottom: 52px;
+}
+
+.serviсe:last-child {
+    margin-bottom: 0;
 }
 
 .serviсe__img {
@@ -342,6 +356,7 @@
     color: #fff;
 }
 
-.pagination-theme-red {
-    margin-bottom: 90px;
+.service__btn--light-activ {
+    background: #F5170E;
+    color: #fff;
 }
