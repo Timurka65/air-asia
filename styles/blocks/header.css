@@ -13,8 +13,8 @@
 }
 
 .header__col-right {
-   justify-content: flex-end;
-
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
