@@ -634,8 +634,13 @@
     align-items: center;
 }
 
-.central__logo {
+.central__shades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: url(../../img/welcome-shades.png);
+    width: 591px;
+    height: 100%;
 }
 
 .central__title {
