@@ -33,6 +33,7 @@
 
 .btn {
     background: #F5170E;
+    color: #fff;
     border-radius: 35px;
     padding: 18px 40px;
     font-weight: bold;
@@ -69,8 +70,6 @@
 }
 
 .tour__item {
-    /* display: flex;
-    flex-direction: column; */
     min-height: 449px;
     width: calc(100% / 3 - 18px);
     background: #fff;
@@ -91,8 +90,6 @@
 }
 
 .tour__content {
-    /* display: flex;
-    flex-direction: column; */
     flex: 1;
     padding: 30px 16px 26px 21px;
     color: #666666;
@@ -365,41 +362,6 @@
 }
 
 
-/* plug page */
-.greet__page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: url(../../img/greet-bg.jpg) center center no-repeat;
-}
-
-.greet {
-
-}
-
-.greet__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.greet_logo {
-    background: url(../../img/greet-shades.png) center center no-repeat;
-}
-
-.greet__title {
-    font-size: 18px;
-    margin-bottom: 55px;
-}
-
-.btn-greet {
-    padding: 19px 58px;
-}
-
-
 /* reviews page */
 .reviews {
     margin-bottom: 86px;
@@ -525,7 +487,15 @@
 }
 
 .separator__content {
-    max-width: 50%;
+    position: relative;
+    max-width: 60%;
+    margin-top: 95px;
+}
+
+.separator__img {
+    position: absolute;
+    bottom: -123%;
+    left: 92%;
 }
 
 .separator__title {
@@ -542,7 +512,8 @@
     font-weight: bold;
     font-size: 48px;
     color: #1A1B1E;
-    margin: 62px 0 57px 0;
+    margin-bottom: 65px;
+    padding-top: 67px;
 }
 
 .form__row {
@@ -561,6 +532,10 @@
     color: #1A1B1E;
 }
 
+.form__input:focus {
+    outline: 1px solid red;
+}
+
 .form__input:last-child {
     margin-right: 0;
 }
@@ -573,9 +548,27 @@
     height: 235px;
 }
 
+.form__controls {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.controls {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .form__controls__title {
+    width: 37%;
     font-size: 18px;
     color: #1A1B1E;
+    padding-top: 13px;
+}
+
+.controls__item {
+    margin-right: 7px;
+    margin-bottom: 9px;
 }
 
 .controls__elem {
@@ -585,3 +578,105 @@
 .controls__checkbox:checked ~ .controls__tag {
     background: #B9EAE4;
 }
+
+.controls__tag-activ{
+    background: #B9EAE4;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn--color--grey {
+    background: #8E8E8E;
+}
+
+.btn--color--grey:hover {
+    background: #2B2B2B;
+}
+
+.btn--color--grey-activ {
+    background: #2B2B2B;
+}
+
+.form__btn {
+    margin-right: 17px;
+    margin-bottom: 96px;
+}
+
+.form__btn:last-child {
+    margin-right: 0;
+}
+
+
+
+/* index page */
+.welcome {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../../img/welcome-bg.jpg) center no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo {
+    background: url(../../img/welcome-shades.png);
+}
+
+.central__title {
+    font-size: 18px;
+    margin-bottom: 52px;
+}
+
+.btn--color--ginger {
+    padding: 20px 58px;
+}
+
+.central-asia {
+    opacity: 0;
+    animation: zoom .9s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    to {
+       opacity: 1; 
+       transform: scale(1);
+    }
+}
+
