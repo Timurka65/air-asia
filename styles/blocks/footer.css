@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: space-between;
     /* height: 146px; */
-    padding: 30px 0;
+    padding: 49px 0 40px;
     border-top: 2px solid #182f37;
     margin-top: auto;
 }
@@ -19,20 +19,8 @@
     align-items: flex-end;
 }
 
-.footer__logo {
-    margin-top: 18px;
-}
-
-.footer__nav {
-    margin-top: 18px;
-}
-
 .social {
     margin-right: 74px;
-}
-
-.footer__socials {
-    margin-top: 22px;
 }
 
 .social__item {
@@ -89,11 +77,7 @@
     color: #9A9A9A;
 }
 
-.footer__contacts {
-    margin-top: 17px;
-}
-
 /* services page */
 .services__footer .footer__content {
-    padding: 27px 0;
+    padding: 50px 0 42px;
 }

@@ -384,7 +384,7 @@
 .review {
     display: inline-flex;
     flex-direction: column;
-    padding: 50px 30px;
+    padding: 50px 30px 32px 30px;
     background: #F4F5F5;
     border-radius: 5px;
 }
@@ -433,6 +433,7 @@
 .review__tags {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .tag {
@@ -441,6 +442,8 @@
     padding: 12px 18px;
     border-radius: 50px;
     background: #E7E7E7;
+    margin-right: 7px;
+    margin-bottom: 9px;
 }
 
 .tag--bg-green {
@@ -472,24 +475,20 @@
 }
 
 .separator {
-    background: url(../../img/reviews/separator/bg-separator.jpg);
+    background: url(../../img/reviews/separator/bg-tour.png) bottom right 22% no-repeat, url(../../img/reviews/separator/bg-separator.jpg);
     min-height: 360px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
-
-.separator__tour {
-    background: url(../../img/reviews/separator/bg-tour.png) right bottom no-repeat;
-    width: 487px;
-    height: 100%;
-    margin-bottom: 100px;
+ 
+.separator__container {
+    flex: 1;
+    display: flex; 
+    align-items: center;
 }
 
 .separator__content {
-    position: relative;
     max-width: 60%;
-    margin-top: 95px;
 }
 
 .separator__img {
@@ -506,6 +505,7 @@
 
 .inner-section {
     background: #F4F5F5;
+    padding: 67px 0 96px 0;
 }
 
 .inner-section__title {
@@ -513,7 +513,6 @@
     font-size: 48px;
     color: #1A1B1E;
     margin-bottom: 65px;
-    padding-top: 67px;
 }
 
 .form__row {
@@ -606,7 +605,6 @@
 
 .form__btn {
     margin-right: 17px;
-    margin-bottom: 96px;
 }
 
 .form__btn:last-child {
@@ -644,13 +642,8 @@
     min-height: 248px;
 }
 
-.central__logo {
-    padding-top: 67px;
-}
-
 .central__title {
     font-size: 18px;
-    margin-bottom: 52px;
 }
 
 .btn--color--ginger {

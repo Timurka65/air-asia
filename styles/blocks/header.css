@@ -46,9 +46,62 @@
     font-size: 26px;
 }
 
-.contacts__dropdown-title {
+.dropdown {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.dropdown__title:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.dropdown__title {
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
-    margin-top: -7px;
+    margin: -7px 0 20px;
+    
 }
+
+.dropdown:hover .dropdown-triangle {
+    left: 30px;
+    opacity: 1;
+}
+
+.dropdown-triangle {
+    padding: 17px 14px 15px;
+    background: #EDEDED;
+    opacity: 0.8;
+    border-radius: 5px;
+    color: #1E1F20;
+    position: absolute;
+    top: 60%;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown__days {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dropdown-triangle::after {
+    content: "";
+    position: absolute;
+    border: 12px solid transparent;
+    border-bottom-color: #EDEDED;
+    border-top-width: 0;
+    top: -9px;
+    right: 40px;
+}
+
+.dropdown__list {
+    text-align: left;
+}
+
+
+
+
+
