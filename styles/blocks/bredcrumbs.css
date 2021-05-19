@@ -20,7 +20,7 @@
     font-weight: bold;
 }
 
-.breadcrumbs__link a {
+.breadcrumbs__link {
     text-decoration: underline;
 }
 
