@@ -35,6 +35,7 @@
     font-weight: bold;
     background: #fff;
     color: #F5170E;
+    transition: .3s;
 }
 
 .pagination-link-activ {
@@ -55,6 +56,7 @@
     font-weight: bold;
     background: #F5170E;
     color: #fff;
+    transition: .3s;
 }
 
 .pagination-theme-red .pagination__item .pagination__link-activ {

@@ -43,6 +43,7 @@
 
 .btn:hover {
     background: #DA0100;
+    transition: .3s;
 }
 
 .main-page__tour {
@@ -145,6 +146,7 @@
 .tour__btn--light:hover {
     background: #F5170E;
     color: #fff;
+    transition: .5s;
 }
 
 .tour__btn--light-activ {
@@ -354,6 +356,7 @@
 .service__btn--light:hover {
     background: #F5170E;
     color: #fff;
+    transition: .5s;
 }
 
 .service__btn--light-activ {
